@@ -8,7 +8,7 @@ function doGet(e) {
       response = {state:false, error:{message:["'sheet' is missing"]}};
       return ContentService.createTextOutput(JSON.stringify(response))
     }
-    let sheet = SpreadsheetApp.getActiveSpreadsheet().getgetSheetByName(e.parameter.sheet);
+    let sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(e.parameter.sheet);
     // let sheet = SpreadsheetApp.openById('1U7YG7EyTxvDxrplJ434OGelfSeaqMd9wtW13ylwjHoE').getSheetByName(e.parameter.sheet);
     if (sheet == null) {
       response = {state:false, error:{message:["'sheet' is not found"]}}
@@ -131,7 +131,7 @@ function doPost(e) {
       response.error = {message:["'sheet' is missing"]};
       return ContentService.createTextOutput(JSON.stringify(response))
     }
-    let sheet = SpreadsheetApp.getActiveSpreadsheet().getgetSheetByName(e.parameter.sheet);
+    let sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(param.sheet);
     // let sheet = SpreadsheetApp.openById('1U7YG7EyTxvDxrplJ434OGelfSeaqMd9wtW13ylwjHoE').getSheetByName(param.sheet);
     if (sheet == null) {
       response.state = false;
