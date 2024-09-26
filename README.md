@@ -5,7 +5,7 @@
 
 
 ### Инструкция по установке и использованию
-#### Более детальную инструкцию можете просмотреть [здесь](https://silly-trust-d1f.notion.site/Google-SmartSender-10b552250da380eeb599e2752f88427a)
+#### Более детальную инструкцию, а также шаблон с примерами можете просмотреть [здесь](https://silly-trust-d1f.notion.site/Google-SmartSender-10b552250da380eeb599e2752f88427a)
 1. Открыть Google Drive и создать в нем файл AppsScript https://image.mufiksoft.com/chrome_d9l3449qUx
 2. Скопировать содержимое файла code.js в созданный файл AppsScript https://image.mufiksoft.com/chrome_72faXiorY0
 3. Опубликовать AppsScript как веб-приложение с открытым доступом https://image.mufiksoft.com/chrome_rbhXmVUeul https://image.mufiksoft.com/VcxmgLw0dC
